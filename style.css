@@ -1,0 +1,26 @@
+#board {
+}
+
+#board > .row {
+    clear: both;
+}
+
+#board > .row > div {
+    background-color: #ccc;
+    width: 7px;
+    height: 7px;
+    float: left;
+    margin: 1px;
+}
+
+#board > .row > div.snake-head {
+    background-color: red;
+}
+
+#board > .row > div.snake-body {
+    background-color: blue;
+}
+
+#board > .row > div.food {
+    background-color: green;
+}
